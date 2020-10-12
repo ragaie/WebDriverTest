@@ -1,6 +1,26 @@
-# Need to read before going dwon in code:-
+# Need to read before going down in code:-
+Some sort of setting 
 
-1- Classes you find
+1- In the VM arguments provide -Dtestng.dtd.http=true
+2- I had tried to use BOM design pattern.
+needed to allow TestNG working with http
+
+# Dependencies needed to run this project:- 
+
+added them already in   pom.xml
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+  
+        <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+        <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+
+
+
+# Classes you find
+1- 
 
 (HomePage, LoginNewUser,CreateNewAccount,ShoppingItems,ReviewMyOrders)
 
@@ -13,6 +33,7 @@ also it keeps selected item deatil to check against it when verify item placed i
 
 
 #Flow of code :-
+
 1- need to  change email value in Class newUser, for every time need to enter reqister flow.
 otherwise it will login with this data provided.
 
