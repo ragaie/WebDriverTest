@@ -2,7 +2,9 @@
 Some sort of setting 
 
 1- In the VM arguments provide -Dtestng.dtd.http=true
+
 2- I had tried to use BOM design pattern.
+
 needed to allow TestNG working with http
 
 # Dependencies needed to run this project:- 
